@@ -38,7 +38,7 @@ class profileui extends StatelessWidget {
                 width: 150,
                 decoration: BoxDecoration(
                   image: const DecorationImage(
-                    image: AssetImage('assets/images/profile.jpg'),
+                    image: AssetImage('assets/images/dp.png'),
                     fit: BoxFit.cover,
                   ),
                   color: Colors.white,
@@ -75,8 +75,8 @@ class profileui extends StatelessWidget {
                 height: 50,
                 child: Column(
                   children: [
-                    const Text("Chromicle",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
-                    const Text("@amFOSS",style: TextStyle(color: Colors.grey,fontSize: 15),)
+                    const Text("Cristiano Ronaldo",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+                    const Text("@CR7",style: TextStyle(color: Colors.grey,fontSize: 15),)
                   ],
                 ),
               ),
@@ -91,8 +91,10 @@ class profileui extends StatelessWidget {
                   Column(
 
                     children: [
-                      const Text(" Mobile App Developer And Open",style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold),),
-                      const Text("Source Enthusisastic",style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,))
+                      const Text(" FootBall Player",
+                        style: TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold),),
                     ],
 
                   ),
