@@ -25,15 +25,11 @@ class _MyStatefulWidgetState extends State <MyStatefullWidget>{
     setState(() {
     isChecked=value!;
     onChanged: (bool? value) {
-
-class MyStatefullWidget extends State<MyStatefulWidget> {
-    });
-    },
-    ),
-    ],
+    )
+    ]
     ),
     );
     }
-    }{
-}
+    }
+
 

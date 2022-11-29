@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-
 void main(){
   runApp(MaterialApp(
     home: progressindicator (),
     debugShowCheckedModeBanner: false,
   ));
 }
-
-
 class progressindicator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -15,9 +12,7 @@ class progressindicator extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Loader(),
     );
-  }
-}
-
+  }}
 class Loader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
